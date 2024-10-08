@@ -109,3 +109,273 @@
     "testEnvironment": "node"
   }
 }
+
+# Introduction 
+TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+
+# Getting Started
+TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+1.	Installation process
+2.	Software dependencies
+3.	Latest releases
+4.	API references
+
+# Build and Test
+TODO: Describe and show how to build your code and run the tests. 
+
+# Contribute
+TODO: Explain how other users and developers can contribute to make your code better. 
+
+If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
+- [ASP.NET Core](https://github.com/aspnet/Home)
+- [Visual Studio Code](https://github.com/Microsoft/vscode)
+- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+APP_NAME=shipingmarketplaceapi
+APP_URL=https://shippingmarketplace-dev.symple.co.in/
+BACKEND_URL=https://shipingmarket-api.symple.co.in/
+APP_SALT=nyKWAL6ytUTpIK1VuuQP00Dx89cm48HJf9IP97gxnP8
+APP_DEBUG=true
+APP_ENV=local
+APP_PORT=8094
+RESET_PWD_URL=https://shippingmarketplace-dev.symple.co.in/account/change-password/
+
+ENABLE_API_DOC=true
+API_DOC_V=v1
+API_V=v1
+API_DOC_BASEURL=doc/api
+API_DOC_HEADING=shipingmarketplaceapi
+API_DOC_DESC=shipingmarketplaceapi
+
+
+DATABASE_HOST=192.168.0.14
+DATABASE_USERNAME=ShippingMarketPl
+DATABASE_NAME=Shipping_Market_Place
+DATABASE_PASSWORD=HajTm2JPsWtVNKTn
+DATABASE_PORT=3306
+
+API_DOC=true
+
+
+
+AWS_REGION=ap-south-1
+AWS_ACCESSKEY_ID=AKIATCER4XDZR3T7NGNB
+AWS_SECRET_ACCESSKEY=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
+
+
+# logo url key S3 bucket
+LOGO_KEY=65d1-5e61-4dde-9ec5
+
+STRIPE_KEY=sk_test_51HS27CGULtR73YOe7aeXlbtXoaRWQnBmrNCGytT7RI4DddEju9rnBwdiUfPVzD0Cx2tp1efrO2fwFPF95ldYbQsJ00seh7BEAt
+
+#GOOGLE_APIKEY=AIzaSyA_7XMfHN1zk4Uy0rYK0h2TUIrlFp55lYw
+GOOGLE_APIKEY=AIzaSyB48kCyac5TkJE06Bw6k0D7XwR3REhX1O8
+
+#expendable example
+#APP_URL=mywebsite.com
+#SUPPORT_EMAIL=support@${APP_URL}
+
+
+
+# mail
+MAIL_HOST=smtp.sendgrid.net
+MAIL_USER=apikey
+MAIL_PASSWORD=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
+MAIL_FROM=noreply.softobiz55@gmail.com
+
+# optional
+MAIL_TRANSPORT=smtp://${MAIL_USER}:${MAIL_PASSWORD}@${MAIL_HOST}
+
+APP_NAME=shipingmarketplaceapi
+APP_URL=https://shippingmarketplace-dev.symple.co.in/
+BACKEND_URL=https://shipingmarket-api.symple.co.in/
+APP_SALT=nyKWAL6ytUTpIK1VuuQP00Dx89cm48HJf9IP97gxnP8
+APP_DEBUG=true
+APP_ENV=local
+APP_PORT=8094
+RESET_PWD_URL=https://shippingmarketplace-dev.symple.co.in/account/change-password/
+
+ENABLE_API_DOC=true
+API_DOC_V=v1
+API_V=v1
+API_DOC_BASEURL=doc/api
+API_DOC_HEADING=shipingmarketplaceapi
+API_DOC_DESC=shipingmarketplaceapi
+
+
+DATABASE_HOST=192.168.0.14
+DATABASE_USERNAME=ShippingMarketPl
+DATABASE_NAME=Shipping_Market_Place
+DATABASE_PASSWORD=HajTm2JPsWtVNKTn
+DATABASE_PORT=3306
+
+API_DOC=true
+
+
+
+AWS_REGION=ap-south-1
+AWS_ACCESSKEY_ID=AKIATCER4XDZR3T7NGNB
+AWS_SECRET_ACCESSKEY=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
+
+
+# logo url key S3 bucket
+LOGO_KEY=65d1-5e61-4dde-9ec5
+
+STRIPE_KEY=sk_test_51HS27CGULtR73YOe7aeXlbtXoaRWQnBmrNCGytT7RI4DddEju9rnBwdiUfPVzD0Cx2tp1efrO2fwFPF95ldYbQsJ00seh7BEAt
+
+#GOOGLE_APIKEY=AIzaSyA_7XMfHN1zk4Uy0rYK0h2TUIrlFp55lYw
+GOOGLE_APIKEY=AIzaSyB48kCyac5TkJE06Bw6k0D7XwR3REhX1O8
+
+#expendable example
+#APP_URL=mywebsite.com
+#SUPPORT_EMAIL=support@${APP_URL}
+
+
+
+# mail
+MAIL_HOST=smtp.sendgrid.net
+MAIL_USER=apikey
+MAIL_PASSWORD=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
+MAIL_FROM=noreply.softobiz55@gmail.com
+
+# optional
+MAIL_TRANSPORT=smtp://${MAIL_USER}:${MAIL_PASSWORD}@${MAIL_HOST}
+
+APP_NAME=shipingmarketplaceapi
+APP_URL=https://shippingmarketplace-dev.symple.co.in/
+APP_SALT=nyKWAL6ytUTpIK1VuuQP00Dx89cm48HJf9IP97gxnP8
+APP_DEBUG=true
+APP_ENV=local
+APP_PORT=8094
+
+
+ENABLE_API_DOC=true
+API_DOC_V=v1
+API_V=v1
+API_DOC_BASEURL=doc/api
+API_DOC_HEADING=shipingmarketplaceapi
+API_DOC_DESC=shipingmarketplaceapi
+
+DATABASE_HOST=192.168.0.9
+DATABASE_USERNAME=ShippingMarketPl
+DATABASE_NAME=Shipping_Market_Place
+DATABASE_PASSWORD=HajTm2JPsWtVNKTn
+DATABASE_PORT=3306
+
+API_DOC=true
+
+AWS_REGION=ap-south-1
+AWS_ACCESSKEY_ID=AKIATCER4XDZR3T7NGNB
+AWS_SECRET_ACCESSKEY=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
+
+
+# logo url key S3 bucket
+LOGO_KEY=65d1-5e61-4dde-9ec5
+
+STRIPE_KEY=sk_test_51HS27CGULtR73YOe7aeXlbtXoaRWQnBmrNCGytT7RI4DddEju9rnBwdiUfPVzD0Cx2tp1efrO2fwFPF95ldYbQsJ00seh7BEAt
+
+
+GOOGLE_APIKEY=AIzaSyA_7XMfHN1zk4Uy0rYK0h2TUIrlFp55lYw
+
+#expendable example
+#APP_URL=mywebsite.com
+#SUPPORT_EMAIL=support@${APP_URL}
+
+APP_NAME=shipingmarketplaceapi
+APP_URL=https://shippingmarketplace-staging.symple.co.in/
+BACKEND_URL=https://shipingmarket-api-staging.symple.co.in/
+APP_SALT=nyKWAL6ytUTpIK1VuuQP00Dx89cm48HJf9IP97gxnP8
+APP_DEBUG=true
+APP_ENV=local
+APP_PORT=8094
+RESET_PWD_URL=https://shippingmarketplace-staging.symple.co.in/account/change-password/
+
+ENABLE_API_DOC=true
+API_DOC_V=v1
+API_V=v1
+API_DOC_BASEURL=doc/api
+API_DOC_HEADING=shipingmarketplaceapi
+API_DOC_DESC=shipingmarketplaceapi
+
+
+DATABASE_HOST=server14.symple.co.in
+DATABASE_USERNAME=ShippingMarketPl
+DATABASE_NAME=Shipping_Market_Place
+DATABASE_PASSWORD=HajTm2JPsWtVNKTn
+DATABASE_PORT=3306
+
+API_DOC=true
+
+AWS_REGION=ap-south-1
+AWS_ACCESSKEY_ID=AKIATCER4XDZR3T7NGNB
+AWS_SECRET_ACCESSKEY=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
+
+STRIPE_KEY=sk_test_51HS27CGULtR73YOe7aeXlbtXoaRWQnBmrNCGytT7RI4DddEju9rnBwdiUfPVzD0Cx2tp1efrO2fwFPF95ldYbQsJ00seh7BEAt
+
+#GOOGLE_APIKEY=AIzaSyA_7XMfHN1zk4Uy0rYK0h2TUIrlFp55lYw
+GOOGLE_APIKEY=AIzaSyB48kCyac5TkJE06Bw6k0D7XwR3REhX1O8
+
+#expendable example
+#APP_URL=mywebsite.com
+#SUPPORT_EMAIL=support@${APP_URL}
+
+
+
+# mail
+MAIL_HOST=smtp.sendgrid.net
+MAIL_USER=apikey
+MAIL_PASSWORD=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
+MAIL_FROM=noreply.softobiz55@gmail.com
+
+# optional
+MAIL_TRANSPORT=smtp://${MAIL_USER}:${MAIL_PASSWORD}@${MAIL_HOST}
+
+
+APP_NAME=shipingmarketplaceapi
+APP_URL=https://shippingmarketplace-staging.symple.co.in/
+BACKEND_URL=https://shipingmarket-api-staging.symple.co.in/
+APP_SALT=nyKWAL6ytUTpIK1VuuQP00Dx89cm48HJf9IP97gxnP8
+APP_DEBUG=true
+APP_ENV=local
+APP_PORT=8094
+RESET_PWD_URL=https://shippingmarketplace-staging.symple.co.in/account/change-password/
+
+ENABLE_API_DOC=true
+API_DOC_V=v1
+API_V=v1
+API_DOC_BASEURL=doc/api
+API_DOC_HEADING=shipingmarketplaceapi
+API_DOC_DESC=shipingmarketplaceapi
+
+
+DATABASE_HOST=server14.symple.co.in
+DATABASE_USERNAME=ShippingMarketPl
+DATABASE_NAME=Shipping_Market_Place
+DATABASE_PASSWORD=HajTm2JPsWtVNKTn
+DATABASE_PORT=3306
+
+API_DOC=true
+
+AWS_REGION=ap-south-1
+AWS_ACCESSKEY_ID=AKIATCER4XDZR3T7NGNB
+AWS_SECRET_ACCESSKEY=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
+
+STRIPE_KEY=sk_test_51HS27CGULtR73YOe7aeXlbtXoaRWQnBmrNCGytT7RI4DddEju9rnBwdiUfPVzD0Cx2tp1efrO2fwFPF95ldYbQsJ00seh7BEAt
+
+#GOOGLE_APIKEY=AIzaSyA_7XMfHN1zk4Uy0rYK0h2TUIrlFp55lYw
+GOOGLE_APIKEY=AIzaSyB48kCyac5TkJE06Bw6k0D7XwR3REhX1O8
+
+#expendable example
+#APP_URL=mywebsite.com
+#SUPPORT_EMAIL=support@${APP_URL}
+
+
+
+# mail
+MAIL_HOST=smtp.sendgrid.net
+MAIL_USER=apikey
+MAIL_PASSWORD=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
+MAIL_FROM=noreply.softobiz55@gmail.com
+
+# optional
+MAIL_TRANSPORT=smtp://${MAIL_USER}:${MAIL_PASSWORD}@${MAIL_HOST}
